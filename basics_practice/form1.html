@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice forms</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>FORM 1</legend>
+
+            <h1>cousre resitration</h1>
+            <br><br>
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name">
+            <br><br>
+
+            <label for="mail">E-Mail</label>
+            <br>
+            <input type="mail" id="mail">
+            <br><br>
+
+            <label for="tele">Telephone number</label>
+            <br>
+            <input type="tel" id="tele">
+            <br><br>
+
+            <label for="occupation">Occupation</label>
+            <br>
+            <select name="ocuupation" id="occupation">
+                <option value="1">engineer</option>
+                <option value="2">advocate</option>
+                <option value="3">doctor</option>
+                <option value="4">defence</option>
+                <option value="5">army</option>
+            </select>
+            <br><br>
+
+            <p>choose the following option:</p>
+
+            <label for="box1">HTML</label>
+            <input type="checkbox" id="box1">
+            <br>
+            <label for="box2">java</label>
+            <input type="checkbox" id="box2">
+            <br>
+            <label for="box1">cybersecurity</label>
+            <input type="checkbox" id="box3">
+            <br>
+            <label for="box1">DSA</label>
+            <input type="checkbox" id="box4">
+            <br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="commnets" id="comments" cols="30" rows="4"
+                placeholder="Write your thoughts here"></textarea>
+
+            <br>
+            <button>register</button>
+        </fieldset>
+    </form>
+
+    <br><br><br><br><br>
+    <form>
+        <fieldset>
+            <legend>FORM 2</legend>
+
+            <h1>Job Aplications</h1>
+            <br><br>
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name">
+            <br><br>
+
+            <label for="mail">E-Mail</label>
+            <br>
+            <input type="mail" id="mail">
+            <br><br>
+
+            <label for="tele">Telephone number</label>
+            <br>
+            <input type="tel" id="tele">
+            <br><br>
+
+            <label for="fileuplaod">Upload resume here:</label>
+            <br>
+            <input type="file" id="fileupload">
+            <br><br>
+
+            <label for="exp">Experience(years):</label>
+            <br>
+            <input type="number" id="exp" max="50" min="15">
+
+            <br>
+            <fieldset>
+                <legend>SKILLS:</legend>
+                <label for="box1">HTML</label>
+                <input type="checkbox" id="box1">
+                <br>
+                <label for="box2">java</label>
+                <input type="checkbox" id="box2">
+                <br>
+                <label for="box1">cybersecurity</label>
+                <input type="checkbox" id="box3">
+                <br>
+                <label for="box1">DSA</label>
+                <input type="checkbox" id="box4">
+                <br><br>
+            </fieldset>
+            <br>
+
+
+            <label for="education">higher education:</label>
+            <br>
+            <select name="education" id="education">
+                <option value="1">high school</option>
+                <option value="2">inter school</option>
+                <option value="3">bachlors</option>
+                <option value="4">masters</option>
+                <option value="5">PHD</option>
+            </select>
+            <br><br>
+
+            <p>Avalibilty</p>
+            <label for="full">Full-time</label>
+            <input type="radio" id="full">
+            <br>
+            <label for="part">Part-time</label>
+
+            <input type="radio" id="part">
+            <br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="commnets" id="comments" cols="30" rows="4"
+                placeholder="Write your thoughts here"></textarea>
+
+            <br>
+            <button>APPLY</button>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <h1>Complex Form</h1>
+        <fieldset>
+            <Legend>PERSONAL INFORMATION:</Legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="mail">E-Mail:</label>
+            <input type="mail" id="mail">
+
+            <label for="tele">Telephone:</label>
+            <input type="tel" id="tele">
+
+            <label for="age">DOB:</label>
+            <input type="date">
+            <span>Gender:</span>
+            <label for="full">Male</label>
+            <input type="radio" id="full">
+            <label for="part">female</label>
+
+            <input type="radio" id="part">
+            <select name="country" id="country">
+                <option value="1">India</option>
+                <option value="2">Japan</option>
+                <option value="3">china</option>
+                <option value="4">austrelia</option>
+                <option value="5">taiwan</option>
+            </select>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>ADDRESS:</legend>
+
+            <label for="street">Street :</label>
+            <input type="text" id="street">
+
+            <label for="city">City :</label>
+            <input type="text" id="city">
+
+            <label for="state">State :</label>
+            <input type="text" id="state">
+
+            <label for="code">Zip Code:</label>
+            <input type="text" id="code">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>OTHER INFORMATION:</legend>
+
+            <label for="comments">Comments:</label><br>
+            <textarea name="commnets" id="comments" cols="30" rows="4"
+                placeholder="Write your thoughts here"></textarea>
+            <label for="terms">Agree to tertms and conditions: L</label>
+            <input type="checkbox" id="terms">
+            <br>
+            <br>
+
+        </fieldset>
+
+        <button>submit</button>
+
+    </form>
+
+
+</body>
+
+</html>

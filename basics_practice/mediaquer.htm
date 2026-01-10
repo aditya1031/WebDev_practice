@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style> .contrainer {
+        background: beige;
+        border: solid 4px black;
+        padding: 2px;
+        display: flex;
+        
+
+    }
+
+    .box {
+        width: 200px;
+        height: 200px;
+        border: solid 2px darkred;
+        margin: 3px;
+        padding: 2px;
+    }
+
+    #vox1 {
+        background: aqua;
+       
+
+    }
+
+    #vox2 {
+        background: blue;
+      
+    }
+
+    #vox3 {
+        background: blueviolet;
+        
+    }
+
+    #vox4 {
+        background: red;
+        
+    }
+
+    @media (max-width:500px)
+    {
+        .contrainer
+        {
+            flex-direction: column;
+        }
+    }
+    
+    @media (min-width:800px)
+    {
+        .contrainer
+        {
+            flex-direction: row;
+        }
+    }
+</style>
+
+
+<body>
+
+
+    <div class="contrainer">
+        <div class="box" id="vox1">box 1</div>
+        <div class="box" id="vox2">box 2</div>
+        <div class="box" id="vox3"> box 3</div>
+        <div class="box" id="vox4">box 4</div>
+
+
+    </div>
+
+</body>
+
+</html>

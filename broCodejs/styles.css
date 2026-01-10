@@ -1,0 +1,113 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    justify-content: center;
+}
+
+/* #resultEle{
+font-size: 3rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+label{
+    font-size: 2rem;
+    display: block;
+    margin: 2rem;
+}
+#mySubmit{
+    color: rgb(40, 39, 39);
+    background-color: rgb(127, 253, 255);
+    border: none;
+    box-shadow: 2px 4px 6px black;
+width: 80px;
+height: 40px;
+margin: 2rem;
+
+} */
+
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+#mySubmit {
+    font-size: 1.2rem;
+    border: none;
+    width: 110px;
+    padding: 0.7rem;
+    background-color: rgb(193, 191, 189);
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px black;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-self: center;
+    background-color: rgb(233, 161, 161);
+    padding: 2rem;
+    gap: 1.3em;
+    align-items: center;
+    height: 350px;
+    margin: 1rem;
+    border: 3px solid rgb(253, 0, 42);
+    border-radius: 10px;
+}
+
+.option {
+    width: 150px;
+    border: none;
+    box-shadow: 2px 4px 6px rgb(76, 74, 74);
+    border-radius: 20px;
+    background-color: rgb(170, 210, 137);
+    padding: 0.3rem;
+    padding-left: 1rem;
+}
+
+#mySubmit {
+    margin-top: 2rem;
+    width: 180px;
+    border: none;
+    box-shadow: 2px 4px 6px rgb(54, 51, 51);
+    border-radius: 10px;
+    background-color: rgb(253, 0, 42);
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(241, 244, 243);
+}
+
+.optionSUB {
+    width: 180px;
+    border: none;
+    box-shadow: 2px 4px 6px rgb(76, 74, 74);
+    border-radius: 8px;
+    background-color: red;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(241, 244, 243);
+
+    margin-bottom: 1rem;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-self: center;
+    background-color: rgb(233, 161, 161);
+    align-items: center;
+    height: 150px;
+    border: 3px solid rgb(253, 0, 42);
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+

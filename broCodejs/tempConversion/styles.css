@@ -1,0 +1,59 @@
+body {
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+     background-color: hsl(0, 0%, 91%);
+}
+
+h1 {
+     color: rgb(59, 158, 251);
+}
+
+form {
+     background-color: white;
+     text-align: center;
+     max-width: 350px;
+     margin: auto;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 5px 5px 15px rgba(99, 98, 98, 0.503);
+}
+
+
+
+#textBox {
+     width: 50%;
+     text-align: center;
+     border: 2px solid rgba(0, 132, 255, 0.754);
+     font-size: 2em;
+     border-radius: 5px;
+     margin-bottom: 15px;
+
+}
+
+label {
+     font-size: 1.5em;
+     font-weight: bold;
+
+}
+
+button {
+     margin-top: 15px;
+     font-size: 1.2em;
+     background-color: rgb(248, 74, 74);
+     font-weight: bold;
+     border: none;
+     padding: 10px 15px;
+     border-radius: 5px;
+     color: white;
+     cursor: pointer;
+}
+
+button:hover {
+     background-color: rgb(250, 15, 7);
+     scale: 1.03;
+}
+
+#result{
+font-size: 1.5em;
+font-weight: bold;
+}

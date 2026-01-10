@@ -1,0 +1,175 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PREVENT horizontal scroll */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', Arial, sans-serif; /* modern clean font */
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    overflow-x: hidden;
+    border-radius: 50px;
+}
+
+#navlist {
+    width: 100%;
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: radial-gradient(circle, hsla(15, 86%, 95%, 1) 0%, hsla(2, 70%, 90%, 1) 100%);
+}
+
+/* NAVBAR BACKGROUND */
+.navcontainer {
+    width: 100%;
+    background: linear-gradient(180deg, hsla(22, 100%, 78%, 1) 0%, hsla(2, 78%, 62%, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#navlogo {
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #fff5e6;
+}
+
+#navitems {
+    display: flex;
+    gap: 40px;
+}
+
+/* CONTENT BOX */
+.contentbox {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    padding-top: 80px;
+    box-shadow: 0px 0px 30px black;
+    background-color: white;
+}
+
+/* ITEMS */
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+ 
+    align-items: center;
+    
+  
+}
+
+/* RIGHT BOX */
+.rightbox {
+    height: 200px;
+    position: relative;
+    transition: all 0.3s linear 0s;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 20px;
+}
+
+.rightbox img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+    display: block;
+    flex-shrink: 0;
+}
+
+.rightbox:hover {
+    transform: scale(1.1);
+}
+
+/* OVERLAY EFFECT */
+.rightbox .overlay {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: rgba(55, 51, 51, 0.821);
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.1rem;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightbox:hover .overlay {
+    opacity: 1;
+}
+
+/* LEFT BOX */
+.leftbox {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.leftbox h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.leftbox h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.ingbox, .stepbox {
+    font-size: 1.1rem;
+}
+
+/* FOOTER */
+.footerbox {
+    width: 100%;
+    background: linear-gradient(180deg, hsla(22, 100%, 78%, 1) 0%, hsla(2, 78%, 62%, 1) 100%);
+    text-align: center;
+    min-height: 40px;
+}
+
+#footertext {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: 'Poppins', Arial, sans-serif;
+}

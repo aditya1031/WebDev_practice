@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root
+    {
+        --primary-color: black;
+        --shadow: purple;
+    }
+    .container{
+        background: violet;
+        
+        height: 700px;
+        border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px 10px var(--shadow);
+    }
+    .box
+    {
+        background: beige;
+        width: 500px;
+        height: 300px;
+        border: 2px solid red;
+    margin: 5px;
+    padding: 5px;
+    
+    box-shadow: 10px 10px 10px 10px var(--primary-color);/*
+    box-shadow: inset 10px 15px 9px purple,10px 10px 10px 10px blue;
+    */}
+    #head1{
+        text-shadow: 3px 3px 3px  var(--shadow);
+    }
+    
+</style>
+<body>
+    
+<div class="container">
+
+    <div class="box">
+        <img src="pic.JPG" alt="imagehere" width="100px">
+        <h1 id="head1">hello evrynyan</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reprehenderit adipisci voluptatibus hic odio consectetur cupiditate ad ipsa itaque minima, explicabo nostrum? Ipsum consectetur ipsam doloremque. Laboriosam magni molestias dolore.</p>
+    </div>
+
+
+</div>
+
+</body>
+</html>

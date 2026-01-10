@@ -1,0 +1,37 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: #CDF7ED;
+}
+
+#heading {
+     font-size: 2.5rem;
+     display: block;
+     justify-self: center;
+     color: #0B7A3B;
+}
+
+.numbers {
+     font-size: 4rem;
+     display: block;
+     justify-self: center;
+     color: #B34700;
+}
+
+#button {
+     width: 120px;
+     font-size: 1.5rem;
+     display: block;
+     justify-self: center;
+     border: none;
+     padding: 0.7rem;
+     border-radius: 8px;
+     background-color: rgb(26, 136, 254);
+     color: aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     box-shadow: 1px 4px 6px rgb(7, 89, 152);
+}
