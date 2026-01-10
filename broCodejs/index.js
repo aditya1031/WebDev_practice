@@ -1133,3 +1133,351 @@ thi is an multi line comment
 // function cube(element) {
 //      return Math.pow(element, 3);
 // }
+
+// const dates =["2026-1-10","2023-1-11","2022-1-12"];
+
+// function formatDates(element) {
+//      const parts=element.split("-");
+//      return `${parts[1]}/${parts[2]}/${parts[0]}/`;
+// }
+
+// const formattedDates=dates.map(formatDates);
+
+// console.log(formattedDates);
+
+
+
+
+
+
+
+
+
+//   .filter() =  creates a new array by filtering 
+//                out elements
+
+// let number=[1,2,3,4,5,6,7,8,9,0];
+
+// function isEvens(num){
+//      return num%2===0;
+// }
+// function isOdd(num){
+//      return num%2!==0;
+// }
+
+// let oddArray=number.filter(isOdd);
+// let evenArray=number.filter(isEvens);
+// console.log(evenArray);
+
+// console.log(oddArray);
+
+// const age =[12,34,13,54,24,33,13,12,53,73];
+
+// function isAdult(element){
+//      return element>=18;
+// }
+
+// function isChild(element){
+//      return element<18;
+// }
+// const adults=age.filter(isAdult);
+// console.log(adults);
+
+// const child=age.filter(isChild);
+// console.log(child);
+
+
+
+// const words = ["apple", "orange", "banana", "kiwi",
+//      "pomogranate", "coconut"];
+
+// function ShortWords(element) {
+//      return element.length <= 6;
+// }
+
+// function LongWords(element) {
+//      return element.length > 6;
+// }
+
+
+// const short = words.filter(ShortWords);
+// console.log(short);            
+
+// const long = words.filter(LongWords);
+// console.log(long);            
+
+
+
+
+
+
+
+
+
+
+
+//   .reduce() =  reduce the elements of an array 
+//                to a single value.
+
+// const price=[3,4,5,67,23,6,2];
+
+// function total(acc,element){
+//      return acc+element;
+// }
+
+// const TotalPrice=price.reduce(total)
+// console.log(TotalPrice);
+
+// const grades =[3,45,67,67,98,88,100,78,22]
+
+// function getMax(acc,ele){
+//      return Math.max(acc,ele);
+// }
+
+// function getMin(acc,ele){
+//      return Math.min(acc,ele);
+// }
+
+
+// const min=grades.reduce(getMin);
+// const max=grades.reduce(getMax);
+
+// console.log(min+" AND " + max);
+
+
+
+
+
+
+
+//   function declaration = define a reusable block of 
+//                          code that performs a specific 
+//                          task.
+
+//   function expression = a way to define function as 
+//                         values or variables.
+
+
+// setTimeout(function () {
+//      console.log("hello")
+// }, 3000);
+
+//  const numbers=[1,2,3,4,5,6,7];
+
+// const square=numbers.map(function(element){
+//      return Math.pow(element,2);
+// });
+
+// console.log(square);
+
+
+// const cube=numbers.map(function(element){
+//      return Math.pow(element,3);
+// });
+
+// console.log(cube);
+
+
+// const evenNum=numbers.filter(function(element){
+//      return element%2===0;
+// });
+
+// console.log(evenNum);
+
+// const oddNum=numbers.filter(function(element){
+//      return element%2!==0;
+// });
+
+// console.log(oddNum);
+
+
+// const total=numbers.reduce(function(acc,element){
+//      return acc+element;
+// });
+
+// console.log(total);  
+
+
+
+
+
+
+
+
+
+
+
+// arrow function = a concise way to write a function 
+//                  expressions good for simple function  
+//                  that you only use once 
+//                  (parameters) =>{some code};
+
+
+// function hello(){
+//      console.log("hello");
+// }
+// hello();
+
+// const hello=function(){
+//      console.log("hello word");
+// };
+// hello();
+
+// const hello=(name)=> console.log(`hello ${name}`);
+// hello("aditya");
+
+// const hello = (name, age) => {
+//      console.log(`hello ${name}`);
+//      console.log(`your age is ${age}`);
+// };
+// hello("aditya", 23);
+
+// number = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// const square = number.map((Element) =>
+//      Math.pow(Element, 2)
+// );
+// console.log(square);
+
+// const cubes=number.map((element)=>Math.pow(element,3));
+// console.log(cubes);
+
+// const evenNum=number.filter((element)=>element%2===0);
+// console.log(evenNum);
+
+// const oddNum=number.filter((element)=>element%2!==0);
+// console.log(oddNum);
+
+// const total=number.reduce((acc,ele)=>acc+ele);
+// console.log(total);
+
+
+
+
+
+
+
+
+
+//   objects = A collection of related properties and/or 
+//             methods.
+//   Can represent real world objects (people , products,
+//   places)
+//   object = {
+//             key:value,
+//            function()
+//              }
+
+
+// const person1 = {
+//      firsName: "Spongebob",
+//      lastName: "Squarepants",
+//      age: 30,
+//      isEmployed: true,
+//      sayHello: function () {
+//           console.log(`HI! I am Spongebob Squarepants`)
+//      },
+//      eat: () => { console.log(`I am eating Krabby Patty`); }
+
+// }
+// console.log(person1);
+// console.log(person1.firsName);
+// console.log(person1.lastName);
+// console.log(person1.age);
+// console.log(person1.isEmployed);
+// person1.sayHello();
+// person1.eat();
+
+// console.log("\n")
+
+// const person2 = {
+//      firsName: "Patrick",
+//      lastName: "Star",
+//      age: 42,
+//      isEmployed: false,
+//      sayHello: function () {
+//           console.log(`HI! I am ${this.firsName} ${this.lastName}`)
+//      },
+//      eat: () => { console.log(`I am eating Chiken and Pizza`); }
+
+// }
+
+// console.log(person2);
+// console.log(person2.firsName);
+// console.log(person2.lastName);
+// console.log(person2.age);
+// console.log(person2.isEmployed);
+// person2.sayHello();
+// person2.eat();
+
+
+
+
+
+
+
+//   this = reference to the object where THIS is used 
+//          (the object depends on the immediate 
+//            context. )
+//        person.name = this.name
+
+// const person1 = {
+//      firsName: "Spongebob",
+//      lastName: "Squarepants",
+//      favFood: "hamburgers",
+//      age: 30,
+//      isEmployed: true,
+//      sayHello: function () {
+//           console.log(`HI! I am ${this.firsName} ${this.lastName}`)
+//      },
+//      eat: function(){
+//           console.log(`I love ${this.favFood}`);
+//      }
+// }
+
+
+// person1.sayHello();
+// person1.eat();
+
+
+
+
+
+
+
+//   constructor = special method for defining the properties 
+//                  and methods of objects.
+
+// function Car(make,model,year,color)
+// {
+//      this.make=make,
+//      this.model=model,
+//      this.year=year,
+//      this.color=color
+//      this.drive=function(){
+//           console.log(`Your drive the ${this.model}`);
+//      }
+// }
+
+
+// const car1=new Car("ford","mustang",2024,"black");
+
+// console.log(car1);
+// console.log(car1.make);
+// console.log(car1.model);
+// console.log(car1.year);
+// console.log(car1.color);
+// console.log("\n")
+
+// const car2= new Car("chevrolet","camaro",1978,"red");
+
+// console.log(car2);
+// console.log(car2.make);
+// console.log(car2.model);
+// console.log(car2.year);
+// console.log(car2.color);
+
+
+
+// car1.drive();
+// car2.drive();
