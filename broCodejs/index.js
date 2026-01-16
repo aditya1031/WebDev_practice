@@ -1445,8 +1445,8 @@ thi is an multi line comment
 
 
 
-//   constructor = special method for defining the properties 
-//                  and methods of objects.
+//   constructor = special method for defining the 
+//                 properties and methods of objects.
 
 // function Car(make,model,year,color)
 // {
