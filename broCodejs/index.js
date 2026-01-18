@@ -254,7 +254,7 @@ thi is an multi line comment
 
 
 
-// IF STATEMENTS = IF A CONDITION IS TRUE ,EXECUTE THE FOLLOWING CODE 
+// IF STATEMENTS = IF A CONDITION IS TRUE ,EXECUTE THE FOLLOWING CODE
 //   IF NOT , DO SOMETHING ELSE
 
 // let time =23;
@@ -350,7 +350,7 @@ thi is an multi line comment
 //      }
 //      else if (masterCard.checked) {
 //           paymentResult.textContent = 'You are paying with MASTER CARD';
-//      } 
+//      }
 //      else if (paypalBtn.checked) {
 //           paymentResult.textContent = 'You are paying with PAYPAL';
 //      }
@@ -379,7 +379,7 @@ thi is an multi line comment
 
 
 
-// SWITCH = can be an efficient replacement of to many else if statements 
+// SWITCH = can be an efficient replacement of to many else if statements
 
 // let day = 7;
 
@@ -473,7 +473,7 @@ thi is an multi line comment
 
 // console.log(userName.length);   //top get the length of the string also adds the spaces
 
-// console.log(userName.trim());  //to  remove the space at start and end 
+// console.log(userName.trim());  //to  remove the space at start and end
 
 // console.log(userName.trimEnd());   // to remove the space at end only
 
@@ -581,7 +581,7 @@ thi is an multi line comment
 // (true or false)
 //
 //                               AND  =   &&
-//                               OR   =   ||   
+//                               OR   =   ||
 //                               NOT  =   !
 
 // const temp=-28;
@@ -664,7 +664,7 @@ thi is an multi line comment
 //    FOR LOOP  = repeat some code a LIMITED amount of times
 
 // for (let i = 1; i <= 10; i+=2) {
-//     console.log("aditya "+i) ; 
+//     console.log("aditya "+i) ;
 // }
 
 // for (let j = 11; j >=1; j-=2) {
@@ -676,7 +676,7 @@ thi is an multi line comment
 // for (let i = 1; i <= 20; i++) {
 //      if (i == 13) {
 //           continue;
-//      } 
+//      }
 //      else if(i==15)
 //      {
 //           break;
@@ -739,7 +739,7 @@ thi is an multi line comment
 
 //   FUNCTION  = A section of reusable code .
 //             Declare code once , use it whenever you wont .
-//             Call the function  to execute that code.  
+//             Call the function  to execute that code.
 
 
 // function happyBirthday(username, age) {
@@ -947,7 +947,7 @@ thi is an multi line comment
 //   REST PARAMETERV =(...rest) allows a function to work with  a variable number of arguments by bundling them into an array
 
 // spread = expands an array into separate elements
-// rest   = bundles separate elements into an array  
+// rest   = bundles separate elements into an array
 
 
 // function openfridge(...foods){
@@ -1017,7 +1017,7 @@ thi is an multi line comment
 
 
 
-//   CALLBACK = a function that is passed as an argument 
+//   CALLBACK = a function that is passed as an argument
 //              to another function
 
 //        used to handle asynchronous operations:
@@ -1113,8 +1113,8 @@ thi is an multi line comment
 
 
 
-//        .map() = accepts a callback and applies that function to each 
-//                  element of an array,then return a new array 
+//        .map() = accepts a callback and applies that function to each
+//                  element of an array,then return a new array
 
 
 // const numbers = [1, 2, 3, 4, 5];
@@ -1153,7 +1153,7 @@ thi is an multi line comment
 
 
 
-//   .filter() =  creates a new array by filtering 
+//   .filter() =  creates a new array by filtering
 //                out elements
 
 // let number=[1,2,3,4,5,6,7,8,9,0];
@@ -1201,10 +1201,10 @@ thi is an multi line comment
 
 
 // const short = words.filter(ShortWords);
-// console.log(short);            
+// console.log(short);
 
 // const long = words.filter(LongWords);
-// console.log(long);            
+// console.log(long);
 
 
 
@@ -1216,7 +1216,7 @@ thi is an multi line comment
 
 
 
-//   .reduce() =  reduce the elements of an array 
+//   .reduce() =  reduce the elements of an array
 //                to a single value.
 
 // const price=[3,4,5,67,23,6,2];
@@ -1250,11 +1250,11 @@ thi is an multi line comment
 
 
 
-//   function declaration = define a reusable block of 
-//                          code that performs a specific 
+//   function declaration = define a reusable block of
+//                          code that performs a specific
 //                          task.
 
-//   function expression = a way to define function as 
+//   function expression = a way to define function as
 //                         values or variables.
 
 
@@ -1295,7 +1295,7 @@ thi is an multi line comment
 //      return acc+element;
 // });
 
-// console.log(total);  
+// console.log(total);
 
 
 
@@ -1307,9 +1307,9 @@ thi is an multi line comment
 
 
 
-// arrow function = a concise way to write a function 
-//                  expressions good for simple function  
-//                  that you only use once 
+// arrow function = a concise way to write a function
+//                  expressions good for simple function
+//                  that you only use once
 //                  (parameters) =>{some code};
 
 
@@ -1359,7 +1359,7 @@ thi is an multi line comment
 
 
 
-//   objects = A collection of related properties and/or 
+//   objects = A collection of related properties and/or
 //             methods.
 //   Can represent real world objects (people , products,
 //   places)
@@ -1416,8 +1416,8 @@ thi is an multi line comment
 
 
 
-//   this = reference to the object where THIS is used 
-//          (the object depends on the immediate 
+//   this = reference to the object where THIS is used
+//          (the object depends on the immediate
 //            context. )
 //        person.name = this.name
 
@@ -1445,7 +1445,7 @@ thi is an multi line comment
 
 
 
-//   constructor = special method for defining the 
+//   constructor = special method for defining the
 //                 properties and methods of objects.
 
 // function Car(make,model,year,color)
@@ -1481,3 +1481,724 @@ thi is an multi line comment
 
 // car1.drive();
 // car2.drive();
+
+
+
+
+//   class = (ES6 feature) provides a more structured and cleaner
+//           way to work with objects compared to traditional
+//           constructor function.
+//     ex. = static keyword , encapsulation , inheritance
+
+// class product {
+//      constructor(name, price) {
+//           this.name = name;
+//           this.price = price;
+//      }
+
+//      displayProducts() {
+//           console.log(`\nproduct: ${this.name}`);
+//           console.log(`Price: ${this.price.toFixed(2)} $\n`);
+//      }
+
+//      calculateTotal(salesTax){
+//           return this.price+(this.price*salesTax);
+//      }
+
+// }
+
+// const product1=new product("shirt",20.99);
+// const product2=new product("jacket",200.00);
+// const product3=new product("cap",50.55);
+
+// product2.name="underwear";
+// product3.price=30.20;
+
+// product1.displayProducts();
+// product2.displayProducts();
+// product3.displayProducts();
+
+// const salesTax=0.05;
+
+// const total=product1.calculateTotal(salesTax);
+// console.log(`Total price with tax : ${total.toFixed(2)} $ .`);
+
+
+// const total2=product2.calculateTotal(salesTax);
+// console.log(`Total price with tax : ${total2.toFixed(2)} $ .`);
+
+// const total3=product3.calculateTotal(salesTax);
+// console.log(`Total price with tax : ${total3.toFixed(2)} $ .`);
+
+
+
+
+
+
+
+
+//   static = keyword that defines properties or methods that belong
+//            to a class itself or the objects created from that
+//            class (class owns anything static, not the objects)
+//        no need to create a new object to access it can be access by class
+
+
+// class User {
+//      static userCount = 0;
+
+//      constructor(username) {
+//           this.username = username;
+//           User.userCount++;
+//      }
+
+//      static getUserCount(){
+//           console.log(`There are ${User.userCount} user online \n`);
+//      }
+
+//      sayHello(){
+//           console.log(`Hello my user name is ${this.username}\n`)
+//      }
+
+// }
+
+// const User1 = new User("aditya");
+// // console.log(User1.username);
+// //console.log(User.userCount);
+// User1.sayHello();
+
+// const User2 = new User("meenakshi");
+// // console.log(User2.username);
+// // console.log(User.userCount);
+// User2.sayHello();
+
+// const User3 = new User("ayush");
+// // console.log(User3.username);
+// // console.log(User.userCount);
+// User3.sayHello();
+
+// const User4 = new User("rohit");
+// // console.log(User4.username);
+// User4.sayHello();
+
+// User.getUserCount();
+
+
+
+
+
+
+
+
+
+
+//   inheritance = allows a new class to inherit properties and
+//                 methods from an existing class (Parent -> child),
+//                 Helps with code reusability
+
+
+// class Animal {
+//      alive = true;
+
+//      eat() {
+//           console.log(`This ${this.name} is eating.`);
+//      }
+//      sleep() {
+//           console.log(`This ${this.name} is sleeping`);
+//      }
+// }
+
+// class Rabbit extends Animal {
+//      name = "rabbit";
+//      run() {
+//           console.log(`This ${this.name} is running`);
+//      }
+// }
+
+// class Fish extends Animal {
+//      name = "fish"
+//      swim() {
+//           console.log(`This ${this.name} swimming`);
+//      }
+// }
+
+// class Hawk extends Animal {
+//      name = "hawk";
+//      fly() {
+//           console.log(`this ${this.name} fly`)
+//      }
+// }
+
+// const rabbit = new Rabbit();
+// const fish = new Fish();
+// const hawk = new Hawk();
+
+
+// console.log(rabbit.alive);
+// rabbit.eat()
+// rabbit.sleep();
+// rabbit.run();
+
+// console.log(fish.alive);
+// fish.eat()
+// fish.sleep();
+// fish.swim();
+
+// console.log(hawk.alive);
+// hawk.eat()
+// hawk.sleep();
+// hawk.fly();
+
+
+
+
+
+
+
+
+//   super = keyword is used in classes to call the constructor
+//           or access the properties and methods of a parent (superclass)
+//   this  = this object
+//   super = the parent 
+
+
+
+// class Animal {
+//      constructor(name, age) {
+//           this.name = name;
+//           this.age = age;
+//      }
+
+//      giveIntro() {
+//           console.log(`HI i am ${this.name} , my age is ${this.age}yr old.\n`)
+//      }
+//      move(speed){
+//           console.log(`and he ${this.name} moves at ${speed}kmph.`)
+//      }
+// }
+
+// class Rabbit extends Animal {
+//      constructor(name, age, runSpeed) {
+//           super(name,age);
+//           this.runSpeed = runSpeed;
+//      }
+//      run(){
+//           console.log(`This rabbit named ${this.name} can run.`)
+//          ttteed);
+//           super.giveIntro();
+//      }
+// }
+
+// class Fish extends Animal {
+//      constructor(name, age, swimSpeed) {
+//           super(name,age);
+//           this.swimSpeed = swimSpeed;
+//      }
+//       swim(){
+//           console.log(`This fish named ${this.name} can swim.`)
+//           super.move(this.swimSpeed);
+//           super.giveIntro();
+//      }
+// }
+
+// class Hawk extends Animal {
+//      constructor(name, age, flySpeed) {
+//           super(name,age);
+//           this.flySpeed = flySpeed;
+//      }
+//      fly(){
+//           console.log(`This hawk named ${this.name} can fly.`)
+//           super.move(this.flySpeed);
+//           super.giveIntro();
+//      }
+// }
+
+
+// const rabbit = new Rabbit("bunny", 2, 25);
+// const fish = new Fish("nemo", 1, 40);
+// const hawk = new Hawk("Baaz", 6, 60);
+
+
+// rabbit.run()
+// fish.swim();
+// hawk.fly();
+
+
+
+
+
+
+
+
+
+
+
+//getter = special method that makes a property readable 
+//getter = special method that makes a property writable
+
+// validates and modify a value when reading and writing a property
+
+
+
+// class Rectangle {
+//      constructor(width, height) {
+//           this.width = width;
+//           this.height = height;
+//      }
+//      set width(newWidth) {
+//           if (newWidth > 0)
+//                this._width = newWidth;
+//           else
+//                console.error("width must be positive number")
+//      }
+//      set height(newHeight) {
+//           if (newHeight > 0)
+//                this._height = newHeight;
+//           else
+//                console.error("height must be positive number")
+//      }
+
+//      get width(){
+//           return `${this._width.toFixed(3)}cm`;
+//      }
+//      get height(){
+//           return `${this._height.toFixed(3)}cm`;
+//      }
+
+//      get area(){
+//           return `${this._height*this._width}cm^2`;
+//      }
+
+// }
+
+// const rectangle = new Rectangle(4.40,2.30);
+// rectangle.width=-86797394;
+// rectangle.height="pizz";
+// console.log(rectangle.width);
+// console.log(rectangle.height);
+
+// console.log(rectangle.area)
+
+
+// class Person {
+//      constructor(firstName, lastName, age) {
+//           this.firstName = firstName;
+//           this.lastName = lastName;
+//           this.age = age;
+//      }
+
+//      set firstName(newFirstName) {
+//           if (typeof newFirstName === "string" && newFirstName.length > 0) {
+//                this._firstName = newFirstName;
+//           }
+//           else {
+//                console.log("input invalid");
+//           }
+//      }
+//      set lastName(newLastName) {
+//           if (typeof newLastName === "string" && newLastName.length > 0) {
+//                this._lastName = newLastName;
+//           } else {
+//                console.log("input invalid");
+//           }
+//      }
+
+//      set age(newAge){
+//           if(typeof newAge==="number"&& newAge>0)
+//           {
+//                this._age=newAge;
+//           }
+//           else{
+//                console.log(`invalid entry`)
+//           }
+//      }
+
+//      get firstName(){
+//           return this._firstName;
+//      }
+//      get lastName(){
+//           return this._lastName;
+//      }
+//      get fullname(){
+//           return this._firstName+" "+this._lastName;
+//      }
+//      get age(){
+//           return this._age;
+//      }
+
+// }
+
+
+// const person1 = new Person("aditya", "kumar", 24);
+// // console.log(person1.firstName);
+// // console.log(person1.lastName);
+// console.log(person1.age);
+
+// console.log(person1.fullname);
+
+
+
+
+
+
+
+
+
+//   destructuring = extract values from array and objects,
+//                   then assign the to variables in a convenient way
+//             [] = to perform array destructuring 
+//             {} = to perform object destructuring
+
+
+// //   EXAMPLE - 1 : Swap the values :-
+
+// let a = 1;
+// let b = 3;
+
+// [a,b]=[b,a];
+// console.log(a);
+// console.log(b);
+
+
+// //   EXAMPLE  - 2 : Swap two elements in array :-
+
+// const colors=["red","pink","purple","black","white"];
+
+// [colors[0],colors[4]]=[colors[4],colors[0]];
+// // [colors[0],colors[2]]=[colors[4],colors[0]];
+
+// console.log(colors);
+
+
+
+//   EXAMPLE - 3 : Assign array elements to variables :-
+
+// const colors=["red","pink","purple","black","white"];
+
+
+// const [firstColor,secondColor,thirdColor, ...extraColor] =colors;
+
+// console.log(firstColor);
+// console.log(secondColor);
+// console.log(thirdColor);
+
+// console.log(extraColor)
+
+
+//   EXAMPLE - 4 : Extract values from objects :-
+
+// const person1={
+//      firstName: "aditya",
+//      lastNAme: "kumar",
+//      age: 26,
+//      job: "cyberSecurity expert"
+// }
+
+// const person2={
+//      firstName: "meenakshi",
+//      lastNAme: "sharma",
+//      age: 26,
+// }
+
+
+// const {firstName,lastNAme,age,job="unknow"}=person2;
+// // const {firstName,lastNAme,age,job="unknow"}=person1;
+// console.log(firstName);
+// console.log(lastNAme);
+// console.log(age);
+// console.log(job);
+
+
+//   EXAMPLE - 5 : Destructure in function parameters :-
+
+// function displayPerson({firstName,lastName,age,job="unemployed"})
+// {
+// console.log(`name : ${firstName} ${lastName}`);
+// console.log(`Age : ${age}`);
+// console.log(`Job : ${job}`);
+// }
+
+// const person1={
+//      firstName:"Spongebob",
+//      lastName:"Squrepants",
+//      age: 30,
+//      job:"Fry Cook",
+// }
+
+// const person2={
+//      firstName:"Patrick",
+//      lastName:"Star",
+//      age:34,
+// }
+
+// displayPerson(person1);
+// console.log("\n")
+// displayPerson(person2);
+
+
+
+
+
+
+
+//   nested objects = Objects inside other Objects.
+//                    Allows you to represent more complex date structures.
+//                    Child Object is enclosed by a parent object.
+
+//        person{Address{},ContactInfo{}}
+//        ShoppingCart{Keyboard{},Mouse{},Monitor{}}
+
+
+// const person = {
+//      fullname: "aditya kumar",
+//      age: 24,
+//      isStudent: true,
+//      hobbies: ["coding", "reading", "music", "baking"],
+
+//      address: {
+//           street: "zakir b,chandighar university",
+//           city: "mohali",
+//           state: "punjab",
+//           country: "india",
+//      }
+
+// }
+
+// console.log(person.fullname);
+// console.log(person.age);
+// console.log(person.isStudent);
+// console.log(person.hobbies[3]+" and "+person.hobbies[0]);
+
+// console.log(person.address.city);
+// console.log(person.address.country);
+//           //OR
+// console.log(" \n")
+// for(const property in person.address)
+// {
+//      console.log(person.address[property]);
+// }
+
+
+// class Person {
+//      constructor(name, age, ...address) {
+//           this.name = name;
+//           this.age = age;
+//           this.address = new Address(...address);
+//      }
+// }
+
+// class Address {
+//      constructor(street, city, country) {
+//           this.street = street;
+//           this.city = city;
+//           this.country = country;
+//      }
+// }
+
+
+// const person1 = new Person("Spongebob", 30, "12324 conc st", "bikini bottoms", "marina trench");
+
+// const person2 =new Person("Patrick",34,"123426 conc st","bikini bottom","marina trench")
+
+// const person3 =new Person("Squidword",45,"123423 conc st","bikini bottom","marina trench")
+
+// console.log(person1);
+// console.log("\n");
+// console.log(person2);
+// console.log("\n");
+// console.log(person3);
+
+// console.log(person1.address.country);
+// console.log(person3.address.city);
+// console.log(person2.address.street);
+
+
+
+
+
+
+
+//   Array of objects =  and array made of objects variables
+
+
+// const fruits = [
+//      { name: "apple", color: "red", calories: 95 },
+//      { name: "orange", color: "orange", calories: 45 },
+//      { name: "banana", color: "yellow", calories: 105 },
+//      { name: "coconut", color: "white", calories: 166 },
+//      { name: "pineapple", color: "yellow", calories: 200 },
+
+// ];
+// console.log(fruits[4].calories);
+
+// fruits.push({ name: "grapes", color: "purple", calories: 95 },
+// );
+
+// console.log(fruits[5]);
+// console.log(fruits);
+
+// // fruits.pop();
+// // fruits.splice(0,3);
+
+// console.log(fruits)
+
+// // --------------forEach()-----------
+
+// fruits.forEach(function (fruit) {
+//      console.log("\n")
+//      console.log(fruit);
+// });
+
+// fruits.forEach(fruit => {
+//      console.log(fruit.name);
+// });
+
+
+// // -------------- Map() -----------
+
+// const fruitsName = fruits.map(fruit => {
+//      return fruit.name;
+// });
+// console.log(fruitsName)
+
+// const fruitsColors = fruits.map(fruit => {
+//      return fruit.color;
+// });
+// console.log(fruitsColors);
+
+// const fruitsCaloriesP = fruits.map(fruits => {
+//      return fruits.calories;
+// });
+// console.log(fruitsCaloriesP);
+
+
+// // -------------- filter() -----------
+
+// const fruitsCalories = fruits.filter(function (fruit) {
+//      return fruit.calories > 100;
+// });
+// console.log(fruitsCalories);
+
+// const yellowFruits = fruits.filter(fruit => {
+//      return fruit.color === "yellow";
+// });
+// console.log(yellowFruits)
+
+
+// // -------------- reduce() -----------
+
+// const totalFruitCalorie = fruits.reduce(function (total, fruit) {
+//      return total = total + fruit.calories;
+// }, 0);
+// console.log(totalFruitCalorie);
+
+
+// // const maxCalorie = fruits.reduce((max, fruit) => {
+// //      if (max.calories < fruit.calories) {
+// //           max = fruit;
+// //      } return max;
+// // }, fruits[0]);
+// // OR
+// const maxCalorie2 = fruits.reduce( (max, fruit) =>
+// fruit.calories > max.calories ? fruit : max
+// );
+
+// console.log(maxCalorie2);
+
+
+// const minCalorie = fruits.reduce( (min, fruit) =>
+// fruit.calories < min.calories ? fruit : min
+// );
+
+// console.log(minCalorie);
+
+
+
+
+
+
+
+
+//   sort() = method  used to sort elemnts of an array in place.
+//            Sort elements as  string in lexicographic order , not alphabetical
+//            lexicographic = (alphabet+numbers+symbols) as string
+
+
+// let number = [1,5,2,6,3,6,4,7,4,5,5,445,23,5,3,56,3]; 
+
+// // number.sort(function(a,b){
+// //      return a-b;
+// // });
+// // number.sort(function(a,b){
+// //      return b-a;
+// // });
+
+// number.sort((a,b)=>a-b);
+// console.log(number);
+
+
+// const people =[
+//      {name: "aditya",age:24,gpa: 7.5},
+//      {name: "keshav",age:22,gpa: 6.5},
+//      {name: "somya",age:23,gpa: 8.5},
+//      {name: "eva",age:23,gpa: 7},
+// ]
+
+// // people.sort((a,b)=>a.age-b.age);
+// // people.sort((a,b)=>a.gpa-b.gpa);
+
+// people.sort((a,b)=>a.name.localeCompare(b.name));
+
+// console.log(people);
+
+
+
+
+
+
+// shuffle the elements of the array - Fisher-Yates algorithm
+
+// const cards = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
+
+// shuffle(cards);
+
+// console.log(cards);
+
+
+// function shuffle(arr) {
+//      for (let i = arr.length - 1; i > 0; i--) {
+
+//           const randomIndex = Math.floor(Math.random() * (i + 1));
+
+//           [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]];
+
+//      }
+// }
+
+
+
+
+
+
+
+//   Date objects = objects that contain values that represent dates and times
+//                  These date objects can be changed and formatted
+
+
+// //Date (year, month, day, hour, minute, second, mili second)
+// const date = new Date();
+
+// const year = date.getFullYear();
+// const month = date.getMonth();
+// const day = date.getDate();
+// const hour = date.getHours();
+// const minutes = date.getMinutes();
+// const seconds = date.getSeconds();
+// const miliSecS = date.getMilliseconds();
+// const dayOfWeek =date.getDay();
+// console.log(year);
+// console.log(month);
+// console.log(day);
+// console.log(hour);
+// console.log(minutes);
+// console.log(miliSecS);
+// console.log(dayOfWeek)
