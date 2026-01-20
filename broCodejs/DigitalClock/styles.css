@@ -1,0 +1,66 @@
+body {
+     margin: 0;
+     background: hsl(0, 40%, 80%);
+ background-image: url(./resdource/img.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+
+
+
+ margin: 0%;
+}
+
+#time {
+     font-size: 1.7em;
+     font-family: cursive;
+     margin-top: 0px;
+    color :hsl(27, 100%, 66%);
+}
+
+#clock-container {
+     width: 20em;
+     height: 10em;
+
+     position: fixed;
+
+     background-color: hsl(348, 100%, 87%);
+    
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     margin: 10em;
+     margin-left: 20em;
+     padding: 0.4em;
+
+     border-radius: 12px;
+
+     box-shadow: 0 6px 12px hsla(0, 1%, 24%, 0.549);
+
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+     
+}
+
+/* Hover effect */
+#clock-container:hover {
+     transform: scale(1.08);
+     box-shadow: 0 10px 20px hsl(0, 1%, 24%, 0.5);
+     
+}
+
+
+#clock {
+     font-size: 3em;
+     font-weight: bold;
+     font-family: monospace;
+
+     margin-top: -5px;
+    color: hsl(27, 100%, 66%);
+
+     
+}

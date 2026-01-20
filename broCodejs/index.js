@@ -2202,3 +2202,127 @@ thi is an multi line comment
 // console.log(minutes);
 // console.log(miliSecS);
 // console.log(dayOfWeek)
+// let today = new Date();
+// console.log(today.toDateString());  //to print date in human readable format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   closure = A function defined inside another function,
+//             the inner function has access to the variables and scope of the outer function.
+//             Allows for private variables and 
+//             sate maintenance Used frequently in
+//             JS FrameWork: React ,Vue, Angular 
+
+// function outer()
+// {
+//      let message="Hello";
+//      function inner(){
+//           console.log(message);
+//      }
+//      inner();
+// }
+
+// outer();
+// function createCounter() {
+//      let count = 0;
+//      function increment() {
+//           count++;
+//           console.log(`count is ${count}`);
+//      }
+
+//      function getCount(){
+//           return count;
+//      }
+
+//      return{increment,getCount}  //returning object
+
+
+// }
+
+// const counter=createCounter();  
+
+// counter.increment();
+
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+
+// console.log(counter.getCount());
+
+
+// function createGame() {
+
+//      let score = 0;
+
+//      function increaseScore(points) {
+//           score += points;
+//           console.log((`+${points}pts`));
+//      }
+//      function decreaseScore(points) {
+//           score -= points;
+//           console.log((`-${points}pts`));
+//      }
+//      function getScore() {
+//           return score;
+//      }
+
+     
+//      return {increaseScore, decreaseScore, getScore};
+
+// }
+
+// const game = createGame();
+
+// game.increaseScore(5);
+// game.increaseScore(3);
+// game.increaseScore(6);
+// game.decreaseScore(10);
+// game.increaseScore(1);
+
+
+
+// console.log(`The final score is ${game.getScore()}pts`);
+
+
+
+
+
+
+
+
+
+
+
+
+//   setTimeout() = function in javaScript that allows you to schedule the execution of a function after an amount of time (milliseconds)
+//                  Times are approximates (varies based on the workload of the JavaScript runtime env.)  
+//             setTimeout(callback, delay);
+
+
+// function sayHello(){
+//      // Window.alert("hello")
+//      console.log("hello");
+// }
+
+// setTimeout(sayHello,3000);
+
+
+// setTimeout(function(){console.log("hello mera yara")},7000);
+
+// const timeoutId= setTimeout(()=>console.log("hellllo"),1000);
+
+// clearTimeout(timeoutId);
+
