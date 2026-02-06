@@ -1,0 +1,130 @@
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: hsl(0, 73%, 70%);
+}
+
+.calculator-container {
+     height: 70vh;
+     width: 350px;
+
+     margin-top: 3rem;
+
+     padding-bottom: 1rem;
+     border-radius: 15px;
+
+     background-color: hsl(0, 58%, 58%);
+
+     align-items: center;
+     justify-self: center;
+     display: flex;
+     flex-direction: column;
+
+     box-shadow: 2px 6px 8px rgba(74, 73, 73, 0.548);
+
+}
+
+#display {
+     height: 20%;
+     width: 91%;
+
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+
+     padding: 1rem;
+     font-size: 3rem;
+     color: white;
+
+     background-color: hsl(0, 50%, 75%);
+
+     border: none;
+     align-self: center;
+     justify-self: center;
+}
+
+.input-container {
+
+     width: 90%;
+     height: 80%;
+
+     margin-top: 1rem;
+     border-radius: 15px;
+
+     display: grid;
+     align-items: center;
+     justify-items: center;
+
+
+
+     grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+button {
+     font-size: 1.5rem;
+     font-family: monospace;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: hsl(30, 100%, 90%);
+     width: 2.5em;
+     height: 2.5em;
+     border-radius: 100%;
+     background-color: hsl(0, 45%, 43%);
+     border: none;
+     cursor: pointer;
+     aspect-ratio: 1;
+     box-shadow: 0px 4px 6px rgba(74, 73, 73, 0.548);
+
+     transition: all ease .5s;
+
+
+  
+}
+
+
+
+button:hover {
+
+     transform: scale(1.025);
+     background-color: hsl(0, 45%, 30%);
+
+     box-shadow: 2px 6px 8px rgba(52, 51, 51, 0.646);
+
+}
+
+button:active {
+     background-color: hsl(0, 0%, 92%);
+}
+
+.accent {
+     color: hsl(0, 45%, 43%);
+     background-color: hsl(30, 100%, 90%);
+}
+
+.accent:hover {
+     background-color: hsl(30, 100%, 75%);
+}
+
+.accent:active {
+     background-color: hsl(0, 0%, 100%);
+}
+
+#accent1 {
+     color: hsl(31, 61%, 90%);
+     background-color: hsl(0, 68%, 15%);
+}
+
+#accent1:hover {
+     background-color: hsl(30, 51%, 58%);
+}
+
+#accent1:active {
+     background-color: hsl(0, 0%, 92%);
+}
+
+
+
