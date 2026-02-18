@@ -43,3 +43,4 @@ function prevSlide() {
      showSlide(slideIndex);
        clearInterval(intervalId);
 }
+

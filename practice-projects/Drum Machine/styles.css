@@ -1,0 +1,78 @@
+body {
+     background-color: hsl(200, 2%, 15%);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     margin: 1rem;
+     padding: 0;
+}
+
+
+#drum-machine {
+
+     background-color: hsl(200, 30%, 25%);
+     padding: 1rem;
+
+     width: 350px;
+     height: 500px;
+     margin: 2rem;
+
+     border: none;
+     border-radius: 10px;
+     box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.500);
+
+}
+
+#display {
+     background-color: hsl(200, 10%, 60%);
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+     height: 40px;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+
+     text-align: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+
+}
+
+#pad-bank {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     padding: 10px;
+}
+
+.drum-pad {
+     background-color: hsl(200, 2%, 50%);
+     border: none;
+
+     font-size: 2rem;
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: hsl(200, 2%, 90%);
+
+     border-radius: 10px;
+     aspect-ratio: 1;
+
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.400);
+
+     cursor: pointer;
+
+     transition: all ease 0.4;
+}
+
+.drum-pad:hover {
+     background-color: hsl(205, 10%, 50%);
+}
+
+.drum-pad:active {
+     transform: scale(1.07);
+     background-color: hsl(205, 40%, 50%);
+}
