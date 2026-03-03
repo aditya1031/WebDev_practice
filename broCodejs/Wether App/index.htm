@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- Left Sidebar -->
+        <aside class="leftSidebar">
+
+            <button class="sideBarButton" id="detailWeather">
+                <i data-lucide="cloud-sun"></i>
+                Weather
+            </button>
+
+            <button class="sideBarButton" id="cities">
+                <i data-lucide="map-pin"></i>
+                Cities
+            </button>
+
+            <button class="sideBarButton" id="map">
+                <i data-lucide="map"></i>
+                Map
+            </button>
+
+            <button class="sideBarButton" id="settings">
+                <i data-lucide="settings"></i>
+                Settings
+            </button>
+
+             <button class="sideBarButton" id="theme">
+                <i data-lucide="sun"></i>
+                Light
+            </button>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="today">
+
+            <!-- Search Bar -->        
+                <input type="text" id="searchCity" placeholder="Search city...">
+          
+
+            <!-- Current Weather -->
+            <section class="current">
+                <span id="cityName">Agra</span>
+                <p id="rainProbability">Rain probability: --%</p>
+                <p id="temperature">32°</p>
+                <img src="" alt="sun icon" id="imgToday">
+            </section>
+
+            <!-- Today's Forecast -->
+            <section class="forecast">
+                <p id="forecastTitle">TODAY'S FORECAST</p>
+                <div class="timeline"></div>
+            </section>
+
+            <!-- Air Conditions -->
+            <section class="air">
+                <div class="head">
+                    <p id="airTitle">AIR CONDITIONS</p>
+                    <button id="seeMore">See more</button>
+                </div>
+
+                <div class="condition">
+
+                    <div class="realfeel">
+                        <img src="" alt="thermometer icon">
+                        <p class="title">Real Feel</p>
+                        <p id="realFeelData">30°</p>
+                    </div>
+
+                    <div class="wind">
+                        <img src="" alt="wind icon">
+                        <p class="title">Wind</p>
+                        <p id="windData">3 km/h</p>
+                    </div>
+
+                    <div class="rain">
+                        <img src="" alt="rain icon">
+                        <p class="title">Chance of Rain</p>
+                        <p id="rainData">3%</p>
+                    </div>
+
+                    <div class="uvindex">
+                        <img src="" alt="uv icon">
+                        <p class="title">UV Index</p>
+                        <p id="uvData">3</p>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="rightSidebar">
+            <p id="weekTitle">7-DAY FORECAST</p>
+        </aside>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
