@@ -1,15 +1,15 @@
 :root {
      /* Backgrounds */
-     --bg-main: hsl(210, 40%, 96%);
-     --bg-sidebar: hsl(0, 0%, 97%);
+     --bg-main: hsl(210, 40%, 85%);
+     --bg-sidebar: hsl(0, 0%, 95%);
      --bg-card: hsl(0, 0%, 100%);
 
      /* Text */
-     --text-primary: hsl(222, 47%, 11%);
-     --text-secondary: hsl(215, 16%, 47%);
+     --text-primary: hsl(222, 50%, 20%);
+     --text-secondary: hsl(215, 16%, 50%);
 
      /* Accent */
-     --primary-color: hsl(207, 90%, 64%);
+     --primary-color: hsl(207, 90%, 55%);
      --secondary-color: hsl(187, 100%, 50%);
 
      /* UI */
@@ -18,22 +18,22 @@
 }
 
 [data-theme="dark"] {
-     --bg-main: hsl(222, 47%, 11%);
-     --bg-sidebar: hsl(215, 28%, 17%);
-     --bg-card: hsl(215, 28%, 17%);
+     --bg-main: hsl(222, 50%, 10%);
+     --bg-sidebar: hsl(215, 30%, 20%);
+     --bg-card: hsl(215, 30%, 15%);
 
-     --text-primary: hsl(0, 0%, 100%);
-     --text-secondary: hsl(215, 20%, 65%);
+     --text-primary: hsl(0, 0%, 80%);
+     --text-secondary: hsl(215, 20%, 60%);
 
-     --primary-color: hsl(207, 90%, 64%);
+     --primary-color: hsl(207, 50%, 60%);
      --secondary-color: hsl(187, 100%, 50%);
 }
 
 body {
-
      margin: 0;
      box-sizing: border-box;
      overflow: hidden;
+
 }
 
 .main-container {
@@ -59,10 +59,6 @@ body {
 
 
 
-
-
-
-
 .leftSidebar {
      background-color: var(--bg-sidebar);
 
@@ -81,9 +77,7 @@ body {
 
 }
 
-
 .sideBarButton {
-     border-radius: none;
      background-color: var(--bg-sidebar);
      color: var(--text-secondary);
      border: none;
@@ -109,26 +103,18 @@ body {
 
 
 
-
-
-
-
-
-
-
 .today {
      background-color: var(--bg-main);
-     /* background-color: #4facfe; */
-
      padding: 1rem;
 
      overflow-y: auto;
-
+     height: 100vh;
      scrollbar-width: none;
-     min-height: 0;
-
      border-radius: 4px;
+}
 
+.today::-webkit-scrollbar {
+     display: none;
 }
 
 #searchCity {
@@ -145,41 +131,173 @@ body {
 }
 
 .current {
-     /* background-color: var(--bg-main); */
-     background-color: aqua;
-     display: block;
-     margin: 0 auto 0.7rem;
-     width: 90%;
-     padding: 1rem;
-     margin-bottom: 2rem;
+     background-color: var(--bg-main);
+
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+     width: 80%;
+     margin: 0 auto 2rem;
+
+     padding: 2rem;
+}
+
+.leftCurrBox {
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+}
+
+.rightCurrBox {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
 }
 
 #cityName {
      font-size: 2.5rem;
      font-family: 'Poppins', sans-serif;
      color: var(--text-primary);
-     line-height: 10px;
+     font-weight: bold;
 }
 
 #rainProbability {
-     line-height: 0px;
+     margin-top: -1rem;
      font-size: 0.7rem;
      font-family: 'Poppins', sans-serif;
      color: var(--text-secondary);
 }
 
 #temperature {
+     line-height: 0%;
      font-size: 3.5rem;
      font-family: 'Poppins', sans-serif;
      color: var(--text-primary);
+     font-weight: bold;
 }
 
-#imgToday {}
+#imgToday {
+     width: 200px;
+     height: auto;
+}
+
+
+
+
+
+
+
+.forecast {
+     background-color: var(--bg-card);
+     border-radius: var(--border-radius);
+     padding: 2rem;
+     margin-bottom: 2rem;
+}
+
+#forecastTitle {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     font-weight: 600;
+     font-family: 'Poppins', sans-serif;
+     font-size: 1rem;
+     color: var(--text-secondary);
+
+     margin-bottom: 1.2rem;
+     font-size: 0.9rem;
+     margin-top: 0rem;
+}
+
+
+
+
+
+.air {
+     background-color: var(--bg-card);
+     border-radius: var(--border-radius);
+     padding: 2rem;
+     margin-bottom: 4rem;
+}
+
+.head {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     font-weight: 600;
+     font-family: 'Poppins', sans-serif;
+     font-size: 1rem;
+     color: var(--text-secondary);
+
+     margin-bottom: 1.2rem;
+}
+
+#airTitle {
+     margin-top: 0rem;
+     font-size: 0.9rem;
+}
+
+#seeMore {
+     background-color: var(--primary-color);
+     border-radius: 50px;
+
+     width: 110px;
+     height: 35px;
+
+     border: none;
+
+     box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.4);
+
+     color: var(--bg-main);
+     font-size: 0.9rem;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+
+     cursor: pointer;
+}
+
+.condition {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1.5rem;
+}
+
+.label {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     color: var(--text-secondary);
+
+}
+
+.title {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     font-size: 1rem;
+     line-height: 0;
+}
+
+#humidity,
+#rainData,
+#windData,
+#realFeelData {
+     color: var(--text-primary);
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 1.6rem;
+     line-height: 0;
+     margin-left: 1rem;
+}
+
+
 
 
 .rightSidebar {
      background-color: var(--bg-card);
- height: 90vh;
+     height: 90vh;
      margin-bottom: 4.2rem;
      padding: 1rem;
      border-radius: 10px;

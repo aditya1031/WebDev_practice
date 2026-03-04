@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-theme="dark">
+
     <div class="main-container">
 
         <!-- Left Sidebar -->
@@ -38,9 +39,9 @@
                 Settings
             </button>
 
-             <button class="sideBarButton" id="theme">
-                <i data-lucide="sun"></i>
-                Light
+            <button class="sideBarButton" id="theme">
+                <i data-lucide="moon"></i>
+                Dark
             </button>
 
         </aside>
@@ -48,16 +49,20 @@
         <!-- Main Content -->
         <main class="today">
 
-            <!-- Search Bar -->        
-                <input type="text" id="searchCity" placeholder="Search city...">
-          
+            <!-- Search Bar -->
+            <input type="text" id="searchCity" placeholder="Search city...">
+
 
             <!-- Current Weather -->
             <section class="current">
-                <span id="cityName">Agra</span>
-                <p id="rainProbability">Rain probability: --%</p>
-                <p id="temperature">32°</p>
-                <img src="" alt="sun icon" id="imgToday">
+                <div class="leftCurrBox">
+                    <span id="cityName">Agra</span>
+                    <p id="rainProbability">Rain probability: --%</p>
+                    <p id="temperature">32°</p>
+                </div>
+                <div class="rightCurrBox">
+                    <img src="./content/sunny.png" alt="sun icon" id="imgToday">
+                </div>
             </section>
 
             <!-- Today's Forecast -->
@@ -70,33 +75,42 @@
             <section class="air">
                 <div class="head">
                     <p id="airTitle">AIR CONDITIONS</p>
-                    <button id="seeMore">See more</button>
+                    <a href="https://weather.com"> <button
+                            id="seeMore">See more</button></a>
+
                 </div>
 
                 <div class="condition">
-
                     <div class="realfeel">
-                        <img src="" alt="thermometer icon">
-                        <p class="title">Real Feel</p>
+                        <div class="label">
+                            <i data-lucide="thermometer"></i>
+                            <p class="title">Real Feel</p>
+                        </div>
                         <p id="realFeelData">30°</p>
                     </div>
 
                     <div class="wind">
-                        <img src="" alt="wind icon">
-                        <p class="title">Wind</p>
+                        <div class="label">
+                            <i data-lucide="wind"></i>
+                            <p class="title">Wind</p>
+                        </div>
                         <p id="windData">3 km/h</p>
                     </div>
 
                     <div class="rain">
-                        <img src="" alt="rain icon">
-                        <p class="title">Chance of Rain</p>
+                        <div class="label">
+                            <i data-lucide="cloud-rain"></i>
+                            <p class="title">Chance of Rain</p>
+                        </div>
                         <p id="rainData">3%</p>
                     </div>
 
                     <div class="uvindex">
-                        <img src="" alt="uv icon">
-                        <p class="title">UV Index</p>
-                        <p id="uvData">3</p>
+                        <div class="label">
+                            <i data-lucide="bubbles"></i>
+                            <p class="title">Humidity</p>
+                        </div>
+                        <p id="humidity">3</p>
                     </div>
 
                 </div>
@@ -110,7 +124,7 @@
         </aside>
 
     </div>
-
+    <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
 
